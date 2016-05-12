@@ -4,7 +4,7 @@ The purpose of this project is to document geospatial fix data collected from th
 ## Background
 Since 2009, the Chicago Transit Authority (CTA) has provided a [public API](http://www.transitchicago.com/developers/bustracker.aspx) that provides geospatial fixes for all of their buses. These fixes are updated every minute. The intent of this API is to give developers the ability to create "tracker apps" for mobile devices that provided estimated arrival time, bus route information, warnings for delays, etc.
 
-The [ctaTracker project](https://github.com/jolson7168/ctaTracker) is a Python application that has been running in a continuous loop requesting this information every minute since Feburary 2015. Every night at midnight, it archives all the daya collected the previous day, and uploads it to a publicly accessible bucket on Amazon's S3. 
+The [ctaTracker project](https://github.com/jolson7168/ctaTracker) is a Python application that has been running in a continuous loop requesting this information every minute since Feburary 2015. Every night at midnight, it archives all the data collected the previous day, and uploads it to a publicly accessible bucket on Amazon's S3. 
 
 ## Data Format
 The daily archive files can be accessed in S3:
