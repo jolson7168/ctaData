@@ -41,9 +41,5 @@ On or about Dec 19, 2015, the CTA changed the format of their request. The colle
 
 On Apr 28, 2016, the data collection machine was accidently deleted, translating into no data collected for Apr 29 2016 to May 10 2016. 
 
-## Project Collaborators
 
-[Smart Chicago Collaborative](http://www.smartchicagocollaborative.org/) - providing the S3 bucket.
-
-[KPIT](https://www.kpit.com/) - providing the EC2 machine for collecting the data
 
